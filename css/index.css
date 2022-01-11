@@ -1,6 +1,11 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: left; */
     
 }
 
@@ -8,13 +13,378 @@ header img{
     width: 100%;
     height: 400px;
     object-fit: cover;
-    display:block
+    display:block;
+    
+
 }
 #menu-container{
     background-color: #F0F0F0;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    
+    
+}
+nav {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 120px;
+    padding-left: 100px;
+    align-items: center;
+    
+    
+
+    
+    
+    
 }
 nav ul {
+    list-style: none;
+    display:flex;
     margin: 0;
     padding: 0;
+  
+    /* font-size: 20px; */
+    
+   
 }
+nav ul li {
+    /* display:block; */
+    margin: auto;
+    padding: auto;
+    width: auto;
+    margin-left: 26px;
+    font-size: 16px;
+    /* letter-spacing: 0px; */
+    /* font-size: 20px; */
+}
+
+nav > div > input{
+    padding: 10px;
+    border-radius: 5px ;
+    
+}
+
+nav > div > button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(47, 47, 47);
+   
+}
+nav > ul > li  > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sobre{
+    background-color:#e2e0e0;
+    margin-left: auto;
+    margin-right: 28px;
+    border-radius: 5px;
+    padding: 35px;
+    width: 670px;
+    
+    /* font-size: 20px; */
+   /* text-align: center; */
+}
+.sobre > h1{
+  font-size: 70px;
+  margin:0px;
+  font-weight: 300;
+  padding-top: 0px;
+  margin-top: 40px;
+  
+
+}
+p.p1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    
+
+}
+
+
+.sobre > button{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: #007bff;
+    background-color: #007bff;
+    color: white;
+    
+    
+}
+.Informaçoes{
+   display: block;
+   
+}
+main {
+    display:grid;
+    grid-template-areas: "sobre informaçoes";      
+    margin-top: 50px;
+    width: auto;
+    
+    
+    
+
+}
+hr{
+    border: 0;
+  border-top: 1px solid #CCC;
+}
+.video iframe{
+    width: 325px;
+    height: 144px;
+    
+   
+}
+.Informaçoes > div > button{
+    margin-left: 220px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 80px;
+
+
+}
+.email > input{
+    padding: 10px;
+    width: 300px;
+    font-size: 15px;
+    
+}
+
+.password > input{
+    padding: 10px;
+    width: 300px;
+    font-size: 15px;
+    
+}
+.confirmar {
+    padding: 15px;
+    border-radius: 7px;
+    width: 14px;
+    
+}
+/* .morango img{
+    width: 275px;
+    height: 183px;
+    border: 1px solid;
+    flex-direction: column;
+    position: relative; */
+   
+    /* /* object-fit: cover;
+    display:block */
+/* } */
+/* .banana img {
+    width: 275px;
+    height: 183px;
+   
+}
+
+.acerola img {
+    width: 275px;
+    height: 183px;
+    
+   
+}
+.brocolis img {
+    width: 275px;
+    height: 183px;
+    
+} */
+.morango {
+    border: 1px solid rgba(0,0,0,.125);
+   
+    /* position: relative;  */
+    /* object-fit: cover;   */
+}
+/* .banana {
+    padding: 10px;
+}
+.acerola{
+    padding: 10px;
+}
+.brocolis{
+    padding: 10px;
+} */
+
+.frutas img{
+    width: 252px;
+    height: 173px;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex-wrap: wrap; */
+    
+     /* border: 1px solid; */
+    flex-direction: column;
+    position: relative; 
+}
+.frutas {
+    /* width: 1150px;
+    display:flex;
+    padding-left: 55px;
+    /* grid-template-areas: "morango banana acerola brocolis";
+    grid-template-columns: 280px 280px 280px 280px ;
+    align-items: center; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* flex-direction: column;
+    position: relative;   */
+    width: 1109px;
+    height: 440px;
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    /* border: 1px solid; */
+   border-radius: 25px;
+   margin-top: 10px;
+  
+    
+   
+}
+
+
+ .frutas p{
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 13em;
+    /* border: 1px solid; */
+}
+.frutas h2{
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 3em; */
+    font-weight: 300;
+    
+}
+.frutas > button {
+    width: 11em;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+  
+    background-color:white;
+    width: 251px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 3px;
+   margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+}
+
+.card > img{
+    border-radius: 3px;
+    
+    
+}
+.card > p {
+    padding-left: 20px
+}
+.card > h2{
+    padding-left: 20px;
+}
+.card > button {
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    
+}
+.tabela{
+    width: 541px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 25px;
+    color: #007bff;
+    height: 208px;
+    background-color: rgba(0,0,0,.03);
+    border-radius: 5px;
+   
+    
+ 
+    
+}
+
+.tabela h3{
+    padding: 3px;
+    margin-left: 30px;
+    font-weight: 300;
+   
+    
+}
+.tabela2{
+    width: 530px;
+    height: 200px;
+    padding-left: 26px;
+    color:black;
+    margin-top: 5px;
+   
+   
+   
+
+}
+.negrito{
+    font-size: 11px;
+}
+.tabela2 > ul{
+    display: flex;
+    justify-content: space-around; 
+    list-style: none;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding-left: 5px; */
+    align-items: center ;
+    margin: 0px;
+    padding: 0px;
+    height: 35px; 
+    
+}
+.tabela2 > ul > li{
+    width: 200px;
+    align-items: center;
+    text-indent: -1.45rem;
+    padding-left: 22px;
+    
+    
+   
+    
+}
+
+
+.master{
+    width: 1086px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: auto;
+    padding-left: auto;
+    align-items: center;
+    margin: auto ;
+    height: 235px;
+    padding-top: 5px;
+    max-height: 1080px;
+    
+    
+}
+
